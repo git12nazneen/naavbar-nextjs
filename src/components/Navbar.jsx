@@ -206,10 +206,10 @@ const Navbar = () => {
               <div className="relative mt-1 md:mt-0 lg:hidden md:hidden">
                 <input
                   type="text"
-                  className="w-36 py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-3xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+                  className="w-36 py-2 pl-4 pr-4 text-gray-700 bg-white border rounded-3xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
                   placeholder="Search here..."
                 />
-                <span className="absolute inset-y-0 left-0 flex items-center pl-3">
+                <span className="absolute inset-y-0 right-3 flex items-center pl-3">
                   <svg
                     className="w-5 h-5 text-gray-400"
                     viewBox="0 0 24 24"
@@ -302,9 +302,9 @@ const Navbar = () => {
                   className="w-full py-2 pl-4 pr-4 text-gray-700 bg-white border rounded-3xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
                   placeholder="Search here..."
                 />
-                {/* absolute z-30 top-1/2 -translate-y-1/2 right-3 text-xl text-slate-600 */}
+
                 <span className="absolute inset-y-0 right-3 flex items-center pl-3">
-                {/* <span className="absolute inset-y-0 left-0 flex items-center pl-3"> */}
+              
                   <svg
                     className="w-5 h-5 text-gray-400"
                     viewBox="0 0 24 24"
